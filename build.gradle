@@ -36,6 +36,9 @@ dependencies {
 
     //ch05
     testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
+
+    //ch06--add this to gradle
+    implementation 'org.springframework.boot:spring-boot-h2console'
 }
 
 tasks.named('test') {
