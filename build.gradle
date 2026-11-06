@@ -39,6 +39,9 @@ dependencies {
 
     //ch06--add this to gradle
     implementation 'org.springframework.boot:spring-boot-h2console'
+
+    //ch07
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 tasks.named('test') {
