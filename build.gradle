@@ -30,6 +30,9 @@ dependencies {
     runtimeOnly 'com.h2database:h2' // 인메모리 DB
     compileOnly 'org.projectlombok:lombok' //
     annotationProcessor 'org.projectlombok:lombok'
+
+    // ch04
+    testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
 }
 
 tasks.named('test') {
